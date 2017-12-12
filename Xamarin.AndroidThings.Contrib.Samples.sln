@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AndroidThings.WeatherStation", "Xamarin.AndroidThings.WeatherStation\Xamarin.AndroidThings.WeatherStation.csproj", "{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AndroidThings.Contrib.Tensorflow", "Xamarin.AndroidThings.Contrib.Tensorflow\Xamarin.AndroidThings.Contrib.Tensorflow.csproj", "{62FC9D4B-FE58-40CF-AF2D-F9D5A14B7206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotHotdog", "FirstTensorFlow\NotHotdog.csproj", "{740727C9-E05C-4084-92BA-E5E94B1DB11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter", "Starter\Starter.csproj", "{7346FB98-C368-45CB-893A-BD5A726DC917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECC62E1-A7F9-4729-A8D1-6DC5ED1BE3FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{62FC9D4B-FE58-40CF-AF2D-F9D5A14B7206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FC9D4B-FE58-40CF-AF2D-F9D5A14B7206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FC9D4B-FE58-40CF-AF2D-F9D5A14B7206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FC9D4B-FE58-40CF-AF2D-F9D5A14B7206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740727C9-E05C-4084-92BA-E5E94B1DB11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740727C9-E05C-4084-92BA-E5E94B1DB11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740727C9-E05C-4084-92BA-E5E94B1DB11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740727C9-E05C-4084-92BA-E5E94B1DB11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7346FB98-C368-45CB-893A-BD5A726DC917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7346FB98-C368-45CB-893A-BD5A726DC917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7346FB98-C368-45CB-893A-BD5A726DC917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7346FB98-C368-45CB-893A-BD5A726DC917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

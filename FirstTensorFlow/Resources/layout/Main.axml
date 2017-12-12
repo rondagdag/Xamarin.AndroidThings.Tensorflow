@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_current_matrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#60000000"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="TAKE A PHOTO"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:paddingBottom="5dp"
+        android:minLines="5" />
+</FrameLayout>

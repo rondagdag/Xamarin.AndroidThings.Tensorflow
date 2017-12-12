@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='org.tensorflow.contrib.android']/class[@name='TensorFlowInferenceInterface']" name="managedName">TensorFlowInferenceInterfaceContrib</attr>
+  <remove-node path="/api/package[@name='org.tensorflow.contrib.android']/class[@name='TensorFlowInferenceInterface.InterruptCallback']" />
+</metadata>
