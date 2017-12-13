@@ -9,8 +9,7 @@ using Android.Content;
 
 namespace Starter
 {
-    
-    [Activity(Label = "Starter", MainLauncher = true, Icon = "@mipmap/icon", HardwareAccelerated = true)]
+    [Activity(Label = "Starter", MainLauncher = true)]
     [IntentFilter(new[] { Intent.ActionMain }, Categories = new[] { Intent.CategoryLauncher })]
     [IntentFilter(new[] { Intent.ActionMain }, Categories = new[] { "android.intent.category.IOT_LAUNCHER", Intent.CategoryDefault })]
     public class MainActivity : Activity, SeekBar.IOnSeekBarChangeListener
@@ -21,7 +20,7 @@ namespace Starter
 
         private Gpio _pin26;
         private Gpio _pin21;
-        private Pwm _pwm0;
+        private Pwm _pwm1;
 
         private SeekBar _ledBrightnessView;
 
@@ -125,9 +124,9 @@ namespace Starter
 
             try
             {
-                _pwm0 = _service.OpenPwm("PWM0");
-                _pwm0.SetPwmFrequencyHz(120);
-                _pwm0.SetEnabled(true);
+                _pwm1 = _service.OpenPwm("PWM1");
+                _pwm1.SetPwmFrequencyHz(120);
+                _pwm1.SetEnabled(true);
             }
             catch (IOException ex)
             {
@@ -141,7 +140,7 @@ namespace Starter
         {
             try
             {
-                _pwm0.SetPwmDutyCycle(progress);
+                _pwm1.SetPwmDutyCycle(progress);
             }
             catch (IOException ex)
             {
@@ -163,7 +162,7 @@ namespace Starter
             {
                 _pin26.Close();
                 _pin21.Close();
-                _pwm0.Close();
+                _pwm1.Close();
                 /*pin22.unregisterGpioCallback(pin22Callback);
                 pin22.close();
 
