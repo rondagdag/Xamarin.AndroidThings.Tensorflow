@@ -26,7 +26,7 @@ namespace Xamarin.AndroidThings.WeatherStation
 {
     [Activity(Label = "Weather Station - Azure Iot Hubs")]
     [IntentFilter(new[] {Intent.ActionMain}, Categories = new[] {Intent.CategoryLauncher})]
-    [IntentFilter(new[] {Intent.ActionMain}, Categories = new[] {"android.intent.category.IOT_LAUNCHER"})]
+    [IntentFilter(new[] { Intent.ActionMain }, Categories = new[] { "android.intent.category.IOT_LAUNCHER", Intent.CategoryDefault })]
 
    public class MainActivity : Activity
     {
@@ -119,6 +119,7 @@ namespace Xamarin.AndroidThings.WeatherStation
             }
             catch (Exception e)
             {
+
                 throw new Exception("Error initializing GPIO button", e);
             }
 
