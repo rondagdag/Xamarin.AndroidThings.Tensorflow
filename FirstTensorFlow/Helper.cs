@@ -1,5 +1,4 @@
-﻿//package com.example.androidthings.imageclassifier;
-
+﻿
 
 using System;
 using System.Collections;

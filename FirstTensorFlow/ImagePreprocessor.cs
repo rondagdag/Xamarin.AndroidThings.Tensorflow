@@ -1,13 +1,4 @@
-﻿/*using android.graphics.Bitmap;
-using android.graphics.Bitmap.Config;
-using android.graphics.BitmapFactory;
-using android.media.Image;
-using junit.framework.Assert;
-using java.io.IOException;
-using java.io.InputStream;
-using java.nio.ByteBuffer;*/
-
-using System.IO;
+﻿using System.IO;
 using Android.Graphics;
 using Android.Media;
 using Java.IO;
